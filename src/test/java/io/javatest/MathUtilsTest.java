@@ -10,7 +10,7 @@ class MathUtilsTest {
 	void test() {
 		MathUtils mathUtils=new MathUtils();
 		
-		int expected = 1;
+		int expected = 2;
 		int actual = mathUtils.add(1, 1);
 		
 		assertEquals(expected, actual);
